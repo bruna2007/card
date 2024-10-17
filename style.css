@@ -3,13 +3,13 @@
     --card-front-color: #144480;
     --card-back-color: #00F4BF;
 }
-body {
 
+  body {
     background: url('img/bg-desktop.webp');
     font-family:Bai Jamjuree;
 }
 
-#contair {
+#container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
