@@ -53,7 +53,7 @@
 }
 
 .cartao_conteudo_pergunta p {
-    color: var(---text-color);
+    color: var(--text-color);
     font-weight: 500;
 }
 
@@ -71,15 +71,15 @@
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
-    width: 100%
+    width: 100%;
     box-sizing: border-box;
-}
+  }
 
-.cartao_conteudo_reposta{
-    transform: rottey(180deg)
-    backgroud-color: rgba(0,244,191, 0.2);
-    border: 4px solid var(--card-back-color)
-}
+.cartao_conteudo_reposta {
+    transform: rotateY(180deg);
+    background-color: rgba(0, 244, 191, 0.2)
+    border: 4px solid var(--card-back-color);
+ }
 
 footer{
     background-color: black;
@@ -90,13 +90,13 @@ footer{
     height: 2rem;
 }
 
-footer p{
+footer p {
     text-align:center;
-    font-size: 0,6rem;
-    margin-top: 05rem;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
 }
 
-@media (max-widt: 560px) {
+@media (max-width: 560px) {
     
 body {
      background: url('img/bg-mobile.webp'), no-repeat cover;
